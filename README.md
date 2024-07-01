@@ -23,7 +23,7 @@ If this is not available, there are method2:
 3. click symbol "+"
 4. type 'matplotlib' or 'yfinance' in the searching box
 5. click install package
-### copy following code
+### copy and run the following codes
 ```python
 import yfinance as yf
 import matplotlib.pyplot as plt
