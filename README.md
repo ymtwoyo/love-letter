@@ -1,4 +1,5 @@
 #introduction
+This aims at collecting hisotry data about price of a particular stock and visualising the data in form of line chart.
 # import
 import yfinance as yf
 import pandas as pd
