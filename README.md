@@ -10,6 +10,7 @@ end_date = "2024-01-01"
 data = yf.download(symbol, start=start_date, end=end_date)
 print(data.head)
 print(data.describe())
+
 <bound method NDFrame.head of               
 | Date | Open | High | Low | Close | Adj | Close | Volume |
 | ---- | ---- | ---- | --- | ----- | --- | ----- | ----- |
