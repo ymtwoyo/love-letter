@@ -7,7 +7,11 @@ The packages used are 'yfinance 0.2.40' and 'matplotlib 3.9.0'.
 ### building environment
 ```shell
 pip install matplotlib -i https://pypi.tuna.tsinghua.edu,cn/simple/
-```shell
+```
+
+If it shows successfully installed
+
+```
 pip install yfinance -i https://pypi.tuna.tsinghua.edu,cn/simple/
 ```
 If this is not available, there are method2:
