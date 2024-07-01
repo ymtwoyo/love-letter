@@ -1,5 +1,33 @@
 # 介绍（introduction）
 This aims at collecting hisotry data about price of a particular stock and visualising the data in form of line chart.
+The python version that I used is Python 3.10.11.
+The packages used are yfinance 0.2.40 and matplotlib 3.9.0.
+how to use:
+##building environment
+```shell
+pip install matplotlib -i https://pypi.tuna.tsinghua.edu,cn/simple/
+```
+##copy following code
+```python
+>>> import yfinance as yf
+>>> import matplotlib.pyplot as plt
+>>> # 获取股票信息
+>>> symbol = "039610.KQ"
+>>> start_date = "2023-01-01"
+>>> end_date = "2024-01-01"
+>>> data = yf.download(symbol, start=start_date, end=end_date)
+>>> print(data.head)
+>>> # 简单的数据分析
+>>> print(data.describe())
+>>> # 绘制走势图
+>>> data['Close'].plot(figsize=(10, 6), label=symbol)
+>>> plt.title(f"{symbol}Stock Price")
+>>> plt.xlabel("Date")
+>>> plt.ylabel("Price")
+>>> plt.legend()
+>>> plt.show()
+```
+
 # 安装软件包（installing packages)
 import yfinance as yf
 import matplotlib.pyplot as plt
