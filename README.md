@@ -9,11 +9,14 @@ The packages used are 'yfinance 0.2.40' and 'matplotlib 3.9.0'.
 pip install matplotlib -i https://pypi.tuna.tsinghua.edu,cn/simple/
 ```
 
-If it shows successfully installed
+If it shows 'successfully installed' then the packaged is installed.
 
 ```
 pip install yfinance -i https://pypi.tuna.tsinghua.edu,cn/simple/
 ```
+If it shows 'successfully installed' then the packaged is installed.
+
+
 If this is not available, there are method2:
 1. download pycharm in APP store
 2. open Settings and find Python Interpreter
