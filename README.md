@@ -1,8 +1,8 @@
 # 介绍（introduction）
 This aims at collecting hisotry data about price of a particular stock and visualising the data in form of line chart.
 # 安装软件包（installing packages)
-import yfinance as yf \n
-import matplotlib.pyplot as plt
+import yfinance as yf
+/nimport matplotlib.pyplot as plt
 # 获取股票信息 (collect stock price data)
 symbol = "039610.KQ"
 start_date = "2023-01-01"
