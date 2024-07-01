@@ -2,12 +2,13 @@
 This aims at collecting hisotry data about price of a particular stock and visualising the data in form of line chart.
 The python version that I used is Python 3.10.11.
 The packages used are yfinance 0.2.40 and matplotlib 3.9.0.
-how to use:
-##building environment
+
+## how to use:
+### building environment
 ```shell
 pip install matplotlib -i https://pypi.tuna.tsinghua.edu,cn/simple/
 ```
-##copy following code
+### copy following code
 ```python
 >>> import yfinance as yf
 >>> import matplotlib.pyplot as plt
