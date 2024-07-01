@@ -1,7 +1,7 @@
 # 介绍（introduction）
 This aims at collecting hisotry data about price of a particular stock and visualising the data in form of line chart.
 The python version that I used is Python 3.10.11.
-The packages used are yfinance 0.2.40 and matplotlib 3.9.0.
+The packages used are 'yfinance 0.2.40' and 'matplotlib 3.9.0'.
 
 ## how to use:
 ### building environment
