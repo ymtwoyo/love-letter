@@ -92,5 +92,3 @@ plt.xlabel("Date")
 plt.ylabel("Price")
 plt.legend()
 plt.show()
-the line chart should looks like following:
-
